@@ -1,3 +1,6 @@
+h1{
+    font-size: 5vw;
+}
 body{
     background-color: black;
     height: 100vh;
@@ -9,4 +12,18 @@ header{
     position: fixed;
     display: flex;
     justify-content: end;
+}
+main{
+    z-index: 2;
+}
+.stats{
+    display:none;
+}
+.logo{
+    position: fixed;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
